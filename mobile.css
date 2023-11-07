@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 375px;
+  height: 2389px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+nav {
+  width: 343px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 56px;
+}
+
+button {
+  width: 182px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  color: var(--Dark-Blue, #172339);
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.14px;
+  border: 1px solid var(--Dark-Blue, #172339);
+}
+
+h1 {
+  margin-top: 8.32px;
+}
+
+.curve {
+  position: relative;
+  left: 150px;
+  padding-top: 5px;
+  /* margin-top: 0px;
+  margin-bottom: 5px; */
+}
+
+.first-container {
+  padding: 10px;
+  padding-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+p {
+  color: var(--Grey, #49566d);
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.089px;
+}
+
+.request-beta {
+  width: 256px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--Dark-Blue, #172339);
+  color: white;
+}
+
+.bold {
+  color: #172339;
+  font-family: Epilogue;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.528px;
+}
+
+.text {
+  color: #172339;
+  font-family: Epilogue;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.528px;
+}
+
+.phone-image {
+  margin-top: 55.68px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.digits {
+  color: var(--Dark-Blue, #172339);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  display: block;
+}
+
+.specifics {
+  text-align: center;
+  display: block;
+  color: var(--Grey, #49566d);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+.name-numbers {
+  margin-top: 56px;
+}
+
+.container2 {
+  width: 375px;
+  height: 748px;
+  /* flex-shrink: 0; */
+  border-radius: 15px;
+  background: var(--Dark-Blue, #172339);
+  position: absolute;
+  z-index: -1;
+  bottom: -1358px;
+}
+
+.jay-guy {
+  position: absolute;
+  top: -175px;
+  left: 70px;
+}
+
+.jeremy-information {
+  text-align: center;
+  margin-top: 350px;
+}
+
+.path2 {
+  position: absolute;
+  left: 150px;
+  top: 270px;
+}
+
+.just {
+  color: #faf8f6;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: -0.417px;
+}
+
+.works {
+  color: #faf8f6;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.417px;
+}
+
+.worker {
+  width: 343px;
+  color: var(--Cream, #f3ede7);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.09px;
+}
+
+.jeremy-name {
+  color: var(--Cream-White, #faf8f6);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
+
+.address {
+  display: block;
+  color: var(--Cream, #f3ede7);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+.down-footer {
+  background: var(--Cream, #f3ede7);
+  width: 375px;
+  height: 420px;
+  position: absolute;
+  z-index: -2;
+  top: 1970px;
+}
+
+.suite-information {
+  width: 125px;
+  height: 150px;
+  position: absolute;
+  bottom: 38px;
+  left: 120px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.socials {
+  display: flex;
+  gap: 36px;
+}

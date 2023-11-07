@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 82%;
+  margin: 40px auto;
+  /* height: 1716px; */
+}
+
+nav {
+  display: flex;
+  /* gap: 810px; */
+  /* width: 1110px; */
+  justify-content: space-between;
+}
+
+/* end of nav button */
+
+button {
+  width: 219px;
+  height: 56px;
+  border-radius: 6px;
+  border: 1px solid var(--Dark-Blue, #172339);
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+  letter-spacing: -0.16px;
+}
+
+button:hover {
+  background: var(--Dark-Blue, #172339);
+}
+
+.first-container {
+  display: flex;
+  margin-top: 8rem;
+  /* justify-content: center;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 0;
+  margin-top: 67px; */
+}
+
+.left-side {
+
+  /* margin-left: -166px; */
+}
+
+h1 {
+  width: 343px;
+  z-index: 1;
+  /* position: relative; */
+  /* margin-top: 170px; */
+}
+
+h1 {
+  width: 635px;
+  color: #172339;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: -1px;
+}
+
+ h1 span {
+  font-weight: 700;
+}
+
+.marketing {
+  margin-top: 40px;
+  color: var(--Grey, #49566d);
+  font-feature-settings: "clig" off, "liga" off;
+  width: 350px;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.request-beta {
+  color: var(--Cream-White, #faf8f6);
+  margin-top: 52px;
+  background: var(--Dark-Blue, #172339);
+}
+
+.request-beta:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+}
+
+.curve {
+  position: absolute;
+  right: 51rem;
+  top: 220px;
+}
+
+.phone-image {
+  width: 350px;
+height: 600px;
+flex-shrink: 0;
+  position: absolute;
+  right: 35rem;
+  top: 9.9rem;
+  z-index: -1; 
+}
+
+.name-numbers {
+  /* margin-top: 120px; */
+  /* height: 435px; */
+  position: absolute;
+  right: 14rem;
+  top: 13.3rem;
+  
+}
+
+.digits {
+  margin-top: 63px;
+  display: block;
+  color: var(--Dark-Blue, #172339);
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+
+.specifics {
+  color: var(--Grey, #49566d);
+  color: var(--Grey, #49566d);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+/* end of first conatiner */
+
+/* container2 starts */
+.container2 {
+  /* margin-left: 164px;
+  margin-right: 164px;
+  margin-top: 199px; */
+  width: 82%;
+  height: 545px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--Dark-Blue, #172339);
+  display: flex;
+  position: absolute;
+  top: 58rem;
+  z-index: -1;
+}
+
+.jay-guy {
+  position: absolute;
+  z-index: 1;
+  margin-top: -45px;
+  margin-left: 112px;
+}
+
+.pale {
+  z-index: 0;
+}
+
+.path2 {
+  margin-top: 161px;
+  margin-left: -30.2px;
+}
+
+.jeremy-information {
+  width: 350px;
+  height: 369px;
+  flex-shrink: 0;
+  margin-top: 88px;
+  margin-left: 52.75px;
+}
+
+.just {
+  color: #faf8f6;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+
+.works {
+  color: #faf8f6;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+
+.worker {
+  color: var(--Cream, #f3ede7);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.jeremy-name {
+  display: block;
+  color: var(--Cream-White, #faf8f6);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
+
+.address {
+  color: var(--Cream, #f3ede7);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+.suite-information {
+  display: flex;
+  width: 82%;
+  height: 32px;
+  gap: 460px;
+  position: absolute;
+  top: 98.4rem;
+  border: solid;
+}
+
+
+.copyright {
+  color: var(--Grey, #49566d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.083px;
+  position: relative;
+  top: -9px;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+footer {
+  background: var(--Cream, #f3ede7);
+  width: 100%;
+  height: 464px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 75.3rem;
+  z-index: -2;
+}
+
+
+.socials {
+  display: flex;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.copyright {
+  color: var(--Grey, #49566d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.083px;
+} 
+
+/* for mobile */
+
+@media screen (min-width: 360px max-width: 412px) {
+}
